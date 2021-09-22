@@ -5,7 +5,7 @@ VulkanPrimitives::VulkanPrimitives() {
 }
 
 void VulkanPrimitives::Init() {
-  std::cout << "Initializing Vulkan\n" << std::endl;
+  std::cout << "Initializing Vulkan" << std::endl;
 }
 
 void VulkanPrimitives::Process() {
