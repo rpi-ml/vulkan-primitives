@@ -1,19 +1,13 @@
 #include "vulkan_primitives.h"
 
-VulkanPrimitives::VulkanPrimitives()
-{
-    printf("Creating Instance\n");
-
+VulkanPrimitives::VulkanPrimitives() {
+  std::cout << "Creating Instance" << std::endl;
 }
 
-
-void VulkanPrimitives::Init()
-{
-    printf("Initializing Vulkan\n");
+void VulkanPrimitives::Init() {
+  std::cout << "Initializing Vulkan\n" << std::endl;
 }
 
-
-void VulkanPrimitives::Process()
-{
-    printf("Processing a Primitive\n");
+void VulkanPrimitives::Process() {
+  std::cout << "Processing a Primitive" << std::endl;
 }

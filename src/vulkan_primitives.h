@@ -1,18 +1,13 @@
-
 #include <iostream>
 
 #include <stdio.h>
 #include <stdlib.h>
 
-class VulkanPrimitives
-{
-public:
+class VulkanPrimitives {
+ public:
+  VulkanPrimitives();
 
-    VulkanPrimitives();
+  void Init();
 
-    void Init();
-
-    void Process();
-
+  void Process();
 };
-
